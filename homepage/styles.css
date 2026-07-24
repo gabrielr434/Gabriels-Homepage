@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #1a1a2e;
+    color: #f1f1f1;
+}
+
+body.dark-mode .stats-row {
+    background-color: #16213e;
+}
+
+nav.navbar {
+    background-color: #4361ee !important;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #212529;
+    color: white;
+}
+
+#theme-toggle {
+    cursor: pointer;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4361ee, #3a0ca3);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero .lead {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.stats-row {
+    background-color: #eef1f8;
+}
+
+.stats-row i {
+    color: #4361ee;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

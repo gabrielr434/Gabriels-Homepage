@@ -1,0 +1,9 @@
+10 HTML tags used (besides html, head, body, title):
+nav, ul, li, a, img, h1, h2, p, section, form, input, label, button, div, footer
+
+5 CSS properties used in styles.css:
+font-family, background-color, color, border-radius, box-shadow, padding, margin, text-align
+
+JavaScript: I used JavaScript to add a dark mode toggle button on the homepage that switches the site's background and text colors when clicked.
+
+Bootstrap: I used Bootstrap's navbar, card, and form components to style navigation, project listings, and the contact form.
